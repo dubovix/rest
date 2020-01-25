@@ -1,0 +1,152 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./settings.css";
+
+.wr-preview {
+  background-image: url(../media/1.jpg);  
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+    height: 120px;
+    
+    
+}
+
+header .container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header ul {
+    display: flex;
+    height: 100%;
+}
+
+header .container-nav {
+    display:flex;
+    height: 100%;
+    align-items: center;
+}
+
+header nav a {
+    font-family: "GentiumBookBasic-Bold";
+    color: #fff;
+    font-size: 21px;
+    text-transform: capitalize;
+}
+
+header nav li {
+    margin-left: 28px;
+    padding: 0 13px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+header nav {
+    height: 100%;
+}
+
+header nav .active {
+    border-top: 3px solid #cdcbc0;
+    border-bottom: 3px solid transparent;
+
+}
+
+header .social {
+    align-items: center;
+}
+
+header .social li {
+    margin-left: 18px;
+}
+
+header .social i {
+    color: #dab33e;
+
+}
+
+/* set wr-promo */
+
+
+.wr-promo h1 {
+    font-size: 90px;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.wr-promo .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 160px;
+}
+
+.wr-promo .divider {
+    margin-bottom: 30px;
+}
+
+.btn-container {
+    display: flex;
+}
+
+.btn-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 57px;
+    width: 228px;
+    border: 1px solid;
+    font-family: "Lato-Regular";
+    font-size: 18px;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin: 0 15px;
+
+}
+
+.btn-container a:first-child {
+    background-color: rgba(0,0,0,0.6);
+    border-color: #000;
+}
+
+.btn-container a:last-child {
+    background-color: rgba(255,255,255,0.3);
+    border-color: #fff;
+}
+
+/* set section about */
+
+.about {
+    max-width: 435px;
+    text-align: center;
+}
+
+.wr-about h2 {
+    font-size: 36px;
+    color: #cc9900;
+    margin-bottom: 10px;
+}
+
+.wr-about .divider {
+    margin-bottom: 30px;
+}
+
+.wr-about p {
+    font-family: "Lato";
+}
+
+.wr-about .container {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.wr-about .divider {
+    margin-bottom: 30px;
+}
