@@ -150,3 +150,13 @@ header .social i {
 .wr-about .divider {
     margin-bottom: 30px;
 }
+
+/* set section ingridients */
+
+.wr-wr-ingridients {
+    background-image: url(../media/5.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
